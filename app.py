@@ -23,7 +23,9 @@ def send_expertsender(data):
           "Email": data.get('email'),
           "Firstname": data.get('first_name', ''),
           "Lastname": data.get('last_name', ''),
-          "Phone": data.get('phone', ''), 
+          "Phone": data.get('phone', ''),
+          "birthday": data_get('birthday', ''),
+          "gender": data_get('gender', '')
         }
     }
     
